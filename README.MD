@@ -1,31 +1,31 @@
 # fourtools
 
-**warning** программа находиться еще на стадии разработки, и в ней есть недочеты и недоработки. если вы нашли какой либо баг - сообщите это в pull request
+**warning** | the program is still in development, and there may be bugs or missing features. If you find a bug — please report it via a pull request.
 
 ---
 
-## возможности
+## Features
 
-* обнаружение iphone по usb
-* вывод основной инфы устройство (какой чип, какая айос и т.д.)
-* минималистичная тулза в коммандной строке
-* изичный установщик
+* Detect iPhone over USB
+* Display basic device info (chip, iOS version, etc.)
+* Minimalistic command-line tool
+* Easy installer
 
 ---
 
-## требования
+## Requirements
 
 * macOS 10.14+
-* lightning - usb подключение
+* Lightning-to-USB connection
 * libimobiledevice
 
 ---
 
-## установка
+## Installation
 
 ```bash
 curl -sL https://raw.githubusercontent.com/zhh4enya/fourtools/main/install.sh | bash
 fourtools
 ```
 
-> скрипт установки может попросить права администратора (sudo) 
+> The installation script may ask for administrator (sudo) privileges.
